@@ -11,8 +11,9 @@ UE.Editor.prototype.getActionUrl = function(action) {
         return 'http://a.b.com/upload.php';
     } else if (action == 'uploadvideo') {
         return 'http://a.b.com/video.php';
-    } else {
-        return this._bkGetActionUrl.call(this, action);
+    } else if(action === "uploadfile"){
+        return 'http://a.b.com/video.php';
+       // return this._bkGetActionUrl.call(this, action);
     }
 }
 
