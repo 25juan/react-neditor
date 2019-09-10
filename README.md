@@ -22,7 +22,8 @@ import ReactNeditor from 'react-neditor' ;
 ```
 #### 属性
 |属性|类型|默认值|
-|config|object|{}|
+-|-|-
+|config|object|{},[ueditor配置项](http://fex.baidu.com/ueditor/)|
 |neditorPath|string|无，neditor静态文件路径|
 |onReady|function|编辑器初始化完成之后的回调|
 |content|strin|编辑器的初始内容|
