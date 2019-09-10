@@ -1,7 +1,8 @@
 {
   "name": "react-neditor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
+  "keywords": ["react","react-uediot","react-neditor","neditor","editor"],
   "main": "./index.js",
   "dependencies": {
     "prop-types": "^15.7.2",
