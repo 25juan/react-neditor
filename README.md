@@ -1,7 +1,7 @@
 ### react-neditor
 neditor的react 版本。
 #### 使用方法
-1. 将本项目下的`public`文件夹下的`neditor`文件夹拷贝到项目的静态目录下。如果是create-react-app则拷贝到`public`文件夹下即可。
+1. 下载`neditor`文件夹解压拷贝到项目的静态目录下。如果是create-react-app则拷贝到`public`文件夹下即可。
 2. 安装`react-neditor`。命令如下：`yarn add git+https://github.com/25juan/react-neditor.git`
 ```
 import ReactNeditor from 'react-neditor' ;
